@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <title>Django Fortune Cookie</title>
+ <title>Django Fortune Teller</title>
  <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1, width=device-width">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,11 +13,11 @@
 <body>
 
     <div class="header" style="border-bottom: 1px solid seashell;">
-      <h1 style="font-family: 'Dancing Script', cursive; font-size: 80px;text-align: center;">Fortune Cookie</h1>
+      <h1 style="font-family: 'Dancing Script', cursive; text-align: center; padding-bottom: -150px;">Fortune Cookie</h1>
     </div>
- 
+
   <div class='mission_container'>
-      <img id="background" src="{% static 'randomfortune/images/cookies.jpg' %}">
+      <img class="background" src="{% static 'randomfortune/images/fortune_cookie.jpeg' %}">
 
       <div class="mission">
           <h2 id='mission_text'> Your fortune cookie says: </h2>

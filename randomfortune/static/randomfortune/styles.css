@@ -1,0 +1,68 @@
+* {
+  background-color: black;
+  color: seashell;
+  opacity: 1;
+}
+
+#container_header {
+  position: fixed;
+  height: 110px;
+  width: 100%;
+  opacity: 1;
+  top: 0;
+  border-bottom: 1px solid seashell;
+  z-index: 10;
+  text-align: center;
+  font-size: 75px;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+.header {
+  height: 130px;
+  position: fixed;
+  width: 100%;
+  opacity: 1;
+  top: 0;
+  border-bottom: 1px solid seashell;
+  z-index: 10;
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+#background {
+  position: relative;
+  width: 56.5%;
+  height: auto;
+  margin: 0 auto;
+  opacity: 0.7;
+}
+
+.mission_container {
+  background-color: black;
+  width: 100%;
+  position: relative;
+  top: 60px;
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: -20px;
+}
+
+.mission_container .mission {
+  background-color: black;
+  font-family: Helvetica;
+  position: absolute;
+  top: 45%;
+  width: 58%;
+  text-align: center;
+  left: 21%;
+}
+
+#mission_text {
+  font-size: 1em;
+}
+
+#description {
+  font-size: 1.3em;
+}
